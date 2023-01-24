@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
-// import Address from "./Components/Address/Address";
+import Address from "./Componant/Address/Address";
 // import Checkout from "./Components/Checkout/Checkout";
 
 import Home from "./Componant/Home/Home";
-// import Login from "./Components/Login/Login";
+import Login from "./Componant/Login/Login";
 // import Payment from "./Components/Payment/Paynment";
 // import SignUp from "./Components/SignUp/Signup";
 
@@ -25,10 +25,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          {/* <Route path="/login" element={<Login />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/address" element={<Address />} /> */}
+          { <Route path="/login" element={<Login />} />
+          // <Route path="/checkout" element={<Checkout />} />
+          // <Route path="/signup" element={<SignUp />} />
+          // <Route path="/address" element={<Address />} /> 
+        }
           {/* <Route
             path="/payment"
             element={
