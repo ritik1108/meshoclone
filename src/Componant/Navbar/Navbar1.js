@@ -35,7 +35,7 @@ function Navbar() {
             <p>Profile,</p>
             <p>{user ? user?.fullName : "Guest"}</p>
           </NavButton>
-          <NavButton onClick={() => navigate("/orders")}>
+          <NavButton onClick={() => navigate("/Orders")}>
             <p>Return</p>
             <p>& Orders</p>
           </NavButton>
