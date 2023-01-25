@@ -43,7 +43,7 @@ function Address() {
             <input
               onChange={(e) => setFullName(e.target.value)}
               type="text"
-              placeholder="Sudipa Acharya"
+              placeholder="Akash"
               value={fullName}
             />
           </InputContainer>
