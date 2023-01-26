@@ -29,7 +29,7 @@ function SignUp() {
           <p>FullName</p>
           <input
             type="text"
-            placeholder=""
+            placeholder="akashgadekar2496@gmail.com"
             onChange={(e) => setFullName(e.target.value)}
             value={fullName}
           />

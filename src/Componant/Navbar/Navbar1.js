@@ -40,7 +40,7 @@ function Navbar() {
             <p>& Orders</p>
           </NavButton>
           <BasketButton onClick={() => navigate("/checkout")}>
-            <img src="./basket-icon.png" alt="" />
+            <img src="./shopping-cart.png" alt="" />
             <p>{basket?.length}</p>
           </BasketButton>
         </RightContainer>
